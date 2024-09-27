@@ -43,7 +43,7 @@ const Photo = () => {
                         r="250"
                         stroke="#00ff99"
                         strokeWidth="4"
-                        strokeLinkcap="round"
+                        strokeLinecap="round"
                         strokeLinejoin="round"
                         initial={{strokeDasharray: "24 10 0 0"}}
                         animate={{
