@@ -21,10 +21,17 @@ const Home = () => {
 
                         {/* btn and socials */}
                         <div className="flex flex-col xl:flex-row items-center gap-8">
-                            <Button varian="outline" size="lg" className="uppercase flex items-center gap-2">
-                                <span>Download CV</span>
-                                <FiDownload className="text-xl"/>
-                            </Button>
+                            <a
+                                href="/assets/resume/Thanakorn_Hoonsil.pdf" // Path to your CV in the public folder
+                                download="Thanakorn_Hoonsil_CV.pdf" // Suggested download filename
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+                                    <span>Download CV</span>
+                                    <FiDownload className="text-xl"/>
+                                </Button>
+                            </a>
                             <div className="mb-8 xl:mb-0">
                                 <Social containerStyles="flex gap-6"
                                         iconStyles="w-9 h-9 border border-accent rounded-full flex
