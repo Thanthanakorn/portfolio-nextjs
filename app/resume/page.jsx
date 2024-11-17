@@ -65,7 +65,7 @@ const education = {
         {
             institution: "Mahidol University International College",
             degree: "Bachelor of Science in Computer Science",
-            duration: "2019 - Present"
+            duration: "2020 - Present"
         }
     ]
 }
