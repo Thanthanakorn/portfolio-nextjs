@@ -1,8 +1,8 @@
 "use client";
 
-import {FaPython, FaJava, FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs} from "react-icons/fa";
+import {FaPython, FaJava, FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaVuejs, FaLinux} from "react-icons/fa";
 
-import {SiTailwindcss, SiNextdotjs} from "react-icons/si";
+import {SiTailwindcss, SiNextdotjs, SiRust, SiMongodb, SiDocker, SiMysql} from "react-icons/si";
 
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 
@@ -110,6 +110,30 @@ const skills = {
             name: "Next.js",
             icon: <SiNextdotjs/>,
         },
+        {
+            name: "Rust",
+            icon: <SiRust/>,
+        },
+        {
+            name: "Vue.js",
+            icon: <FaVuejs/>,
+        },
+        {
+            name: "MongoDB",
+            icon: <SiMongodb/>,
+        },
+        {
+            name: "Linux",
+            icon: <FaLinux/>,
+        },
+        {
+            name: "Docker",
+            icon: <SiDocker/>,
+        },
+        {
+            name: "MySQL",
+            icon: <SiMysql/>,
+        }
     ]
 }
 
