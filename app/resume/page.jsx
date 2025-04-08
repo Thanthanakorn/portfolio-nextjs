@@ -50,9 +50,9 @@ const experience = {
     description: "I have experience in developing web applications using modern technologies.",
     items: [
         {
-            company: "Finding...",
-            position: "Intern",
-            duration: "January 2025"
+            company: "Stock Exchange of Thailand",
+            position: "Cooperative Education",
+            duration: "April 2025 - August 2025"
         }
     ]
 }
