@@ -1,7 +1,5 @@
 "use client";
 
-import {BsArrowDownRight} from "react-icons/bs";
-import Link from "next/link";
 import {motion} from "framer-motion";
 
 const services = [
@@ -9,29 +7,49 @@ const services = [
         num: '01',
         title: 'Web Development',
         description:
-            "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
-        href: "www.google.com"
+            "We build responsive, scalable websites and web applications using modern frameworks. From landing pages to complex SaaS platforms, we deliver solutions that drive business growth and user engagement."
     },
     {
         num: '02',
         title: 'Mobile App Development',
         description:
-            "Our mobile app developers create solutions that work seamlessly across all platforms and operating systems.",
-        href: "www.youtube.com"
+            "Our mobile app developers create high-performance solutions for iOS and Android. We build apps that are secure, user-friendly, and optimized for business success across all platforms."
     },
     {
         num: '03',
         title: 'UI/UX Design',
         description:
-            "We create a unique design for your product that will help your business stand out.",
-        href: "www.x.com"
+            "We craft intuitive, visually stunning interfaces that enhance user experience and business conversion rates. Our designs balance aesthetics with functionality to maximize user retention and satisfaction."
     },
     {
         num: '04',
         title: 'QA & Testing',
         description:
-            "Our QA services will help you establish concrete control over your product’s life cycle, monitor every development stage, and give you accurate product quality information.",
-        href: "www.instagram.com"
+            "Comprehensive testing and quality assurance to ensure your product meets the highest standards. We identify bugs early, optimize performance, and validate that your application delivers a flawless user experience."
+    },
+    {
+        num: '05',
+        title: 'API Development & Integration',
+        description:
+            "Design and develop robust APIs that power your business applications. We integrate third-party services, build RESTful and GraphQL APIs, and ensure seamless communication between systems."
+    },
+    {
+        num: '06',
+        title: 'Cloud & DevOps',
+        description:
+            "Deployment, infrastructure management, and continuous integration solutions. We optimize your cloud architecture, automate workflows, and ensure your applications scale reliably and securely."
+    },
+    {
+        num: '07',
+        title: 'Database Design & Optimization',
+        description:
+            "Strategic database architecture, optimization, and management. We design schemas that support your business growth while maintaining data integrity, security, and performance."
+    },
+    {
+        num: '08',
+        title: 'Technical Consultation',
+        description:
+            "Expert guidance on technology strategy, architecture decisions, and best practices. We help you make informed choices that align with your business goals and technical requirements."
     },
 ]
 
@@ -56,13 +74,6 @@ const Services = () => {
                                     text-transparent group-hover:text-outline-hover transition-all
                                     duration-500">
                                         {service.num}</div>
-                                    <Link
-                                        href={service.href}
-                                        className="w-[70px] h-[70px] rounded-full bg-white
-                                        group-hover:bg-accent transition-all duration-500 flex
-                                        justify-center items-center hover:-rotate-45">
-                                        <BsArrowDownRight className="text-primary text-3xl"/>
-                                    </Link>
                                 </div>
                                 {/* title */}
                                 <h2 className="text-[42px] font-bold leading-none text-white

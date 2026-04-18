@@ -12,12 +12,12 @@ const info = [
     {
         icon: <FaPhoneAlt />,
         title: "Phone",
-        description: "(+66) 89 936 1588",
+        description: "(+66) 98 491 4951",
     },
     {
         icon: <FaEnvelope />,
         title: "Email",
-        description: "thanakorn.hon@student.mahidol.edu",
+        description: "derthanakorn@gmail.com",
     },
     {
         icon: <FaMapMarkerAlt />,

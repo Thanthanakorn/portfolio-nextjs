@@ -22,16 +22,12 @@ const about = {
             fieldValue: "Thanakorn Hoonsil",
         },
         {
-            fieldName: "Phone",
-            fieldValue: "(+66) 89 936 1588",
-        },
-        {
             fieldName: "Experience",
-            fieldValue: "0+ Year",
+            fieldValue: "1 Year",
         },
         {
             fieldName: "Email",
-            fieldValue: "thanakorn.hon@student.mahidol.edu",
+            fieldValue: "derthanakorn@gmail.com",
         },
         {
             fieldName: "Nationality",
@@ -52,7 +48,12 @@ const experience = {
         {
             company: "Stock Exchange of Thailand",
             position: "Cooperative Education",
-            duration: "April 2025 - August 2025"
+            duration: "April 2025 - November 2025"
+        },
+        {
+            company: "Dapp Maker (UFriend)",
+            position: "Full-Stack Developer and Project Manager",
+            duration: "December 2025 - Present"
         }
     ]
 }
@@ -259,7 +260,7 @@ const Resume = () => {
                             <div className="flex flex-col gap-[30px]">
                                 <h3 className="text-4xl font-bold">{about.title}</h3>
                                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{about.description}</p>
-                                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px]
+                                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[900px]
                                 mx-auto xl:mx-0">
                                     {about.info.map((item,index)=>{
                                         return <li key={index} className="flex items-center justify-center
